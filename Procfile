@@ -1,1 +1,1 @@
-Safone: python3 main.py
+TGS: python3 main.py
