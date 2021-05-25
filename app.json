@@ -1,8 +1,8 @@
 {
-  "name": "Telegram Radio Player V2",
-  "description": "An Telegram Bot Maded By Safone to Play Nonstop Radio/Music in Telegram Voice Chats",
-  "repository": "https://github.com/AsmSafone/RadioPlayerV2",
-  "logo": "https://telegra.ph/file/a3755d9cb09f1361e3ac7.jpg",
+  "name": "TGS-Song-Project",
+  "description": "An Telegram Bot to Play Nonstop Radio/Music in Telegram Voice Chats",
+  "repository": "https://github.com/SmokerCat/TGS-Song-Project",
+  "logo": "",
   "keywords": [
     "telegram",
     "radiov2",
@@ -15,11 +15,11 @@
     "radioplayer"
   ],
   "env": {
-    "API_ID": {
+    "API_ID or APP_ID": {
       "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
       "required": true
     },
-    "API_HASH": {
+    "API_HASH or APP_HASH": {
       "description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
       "required": true
     },
@@ -28,7 +28,7 @@
       "required": true
     },
     "SESSION_STRING": {
-      "description": "Session string, use @genStr_robot to generate pyrogram session string",
+      "description": "Session string, use @PyroGrammer_cat_bot to generate pyrogram session string",
       "required": true
     },
     "CHAT": {
